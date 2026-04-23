@@ -1,0 +1,18 @@
+/* =====================================================
+   THEME — Light Mode Overrides
+   Applied via [data-theme="light"] on <html>
+   Warm cream tones, not stark white
+   ===================================================== */
+
+[data-theme="light"] {
+  --color-bg: #FFF5F8;
+  --color-text: #1A1714;
+  --color-text-muted: #6B635A;
+  --color-border: #F0D5DF;
+  --color-surface: #FDEDF3;
+  --color-surface-hover: #FADDE8;
+
+  /* Pink Accent — slightly deeper for light mode contrast */
+  --color-accent: #C4406A;
+  --color-accent-soft: rgba(196, 64, 106, 0.08);
+}

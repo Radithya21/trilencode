@@ -1,0 +1,14 @@
+.theme-toggle {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 36px;
+  height: 36px;
+  color: var(--color-text);
+  transition: opacity var(--transition-fast);
+  flex-shrink: 0;
+}
+
+.theme-toggle:hover {
+  opacity: 0.5;
+}
